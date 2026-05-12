@@ -139,7 +139,7 @@ public:
 // ----------------------------------------------------------------
 
 // TODO: Implement Vehicle constructor
-Vehicle::Vehicle(std::string,int year,double fuelLevel)
+Vehicle::Vehicle(std::string make,int year,double fuelLevel)
  : make(make),year(year),fuelLevel(fuelLevel){}
 
 // TODO: Implement getMake(), getYear(), getFuelLevel()
